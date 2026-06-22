@@ -175,10 +175,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.76
       objectReference: {fileID: 0}
@@ -2159,10 +2155,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.97
       objectReference: {fileID: 0}
@@ -2293,7 +2285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2124815723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 928590845}
+        m_TargetAssemblyTypeName: UIMainScene, Assembly-CSharp
+        m_MethodName: BackToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2124815723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2438,10 +2442,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2021343319908079529, guid: ddfb6a0cbb10de942bf5d6ccec5fca6a, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2021343319908079529, guid: ddfb6a0cbb10de942bf5d6ccec5fca6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.69
       objectReference: {fileID: 0}
@@ -2498,10 +2498,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6692478133657523843, guid: ba025154ecd8a6140a4ca7d5eb0b4e01, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 6692478133657523843, guid: ba025154ecd8a6140a4ca7d5eb0b4e01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.22
@@ -2685,10 +2681,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.54

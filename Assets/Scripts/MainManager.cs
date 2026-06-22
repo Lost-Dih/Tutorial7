@@ -17,7 +17,7 @@ public class MainManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
-        LoadColor();
+        LoadColor(); // load the team color when the game starts
     }
 
     public void NewColorSelected(Color color)

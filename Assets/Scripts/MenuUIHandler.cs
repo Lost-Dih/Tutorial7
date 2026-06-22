@@ -35,6 +35,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void Exit()
     {
+        MainManager.Instance.SaveColor(); // save the team color before exiting
     #if UNITY_EDITOR
             EditorApplication.ExitPlaymode();
     #else
